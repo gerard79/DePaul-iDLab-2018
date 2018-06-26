@@ -1,0 +1,650 @@
+/*
+CTC Separate Stylesheet
+Updated: 2018-16-01 00:59:53
+Theme Name: Depaul iD Lab
+Theme URI: https://www.mageewp.com/alchem-theme.html
+Template: alchem
+Author: Gerard Panganiban
+Author URI: http://depaulidlab.com
+Description: This is the theme for the new DePaul iD Lab website.
+Tags: one-column,two-columns,custom-background,custom-header,custom-menu,theme-options,left-sidebar,translation-ready,editor-style,featured-images,full-width-template,custom-colors,threaded-comments,buddypress,e-commerce
+Version: 1.8.14
+*/
+@import url('../alchem/style.css');
+@import url('fonts/font.css');
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #555;
+	font-family: 'Avenir-Book', sans-serif;
+	font-size: 14px;
+	line-height: 1.8;
+	outline: none;
+}
+*:focus {
+    outline: none;
+}
+a:hover,a:active {
+    outline: 0;
+}
+
+button:focus{
+	border:none;
+	outline:0;
+}
+
+
+.site-nav > ul > li.menu-item-search-icon {display:none;}
+.site-nav > ul > li.current > a {color:#000 !important;font-weight:bold !important;border:0;}
+.site-nav > ul > li.current > a:focus {
+    outline: none !important;
+}
+
+.site-nav .sub-menu li a:hover {
+	background-color: #00af99;
+    color: #fff;
+}
+.site-nav li ul {
+	width: 180px !important;
+}
+.site-nav li > ul {
+	left: unset;
+	right: 0;
+}
+.site-logo {
+    margin: 10px 10px 0px 0;
+}
+img.site-logo {
+    max-height: 58px;
+}
+
+.magee-feature-box.style1 .icon-box, 
+.magee-feature-box.style4 .icon-box, 
+.magee-feature-box.style1 img, 
+.magee-feature-box.style4 img {
+	width: auto;
+	height: 80px;
+}
+.magee-feature-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.magee-heading {margin-bottom: 6px !important;}
+.magee-heading .heading-inner {
+    font-family: 'Avenir-Black', sans-serif;
+    font-size: 0.6em;
+	
+}
+.magee-heading .heading-inner span {
+    font-size: 0.9em;
+	font-family: 'Avenir-Light', sans-serif;
+}
+.magee-section.verticalmiddle .section-content {
+	width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#section-1 .section-content p.alchem_section_0_sub_title {
+    font-family: 'Avenir-Light', sans-serif;
+    font-weight: 100;
+    font-size: 1.4em;
+}
+#alchem-home-sections .alchem-home-section-0 {
+    padding-top: 240px;
+    padding-bottom: 0;
+    background-size: cover;
+    height: 630px;
+	background-position-x: center;
+}
+#alchem-home-sections .alchem-home-section-0 a.magee-btn-normal {
+	background-color: #37669c;
+    color: #fff !important;
+    border: 0;
+    border-radius: 0;
+    padding: 14px 30px;
+    font-size: 22px;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#alchem-home-sections .alchem-home-section-0 a.magee-btn-normal:hover {
+	background-color: #1F3551;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#alchem-home-sections .alchem-home-section-2 {
+	margin-top: -118px;
+    background-size: unset;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#alchem-home-sections .alchem-home-section-3 .video-promo .left-side {
+	width: 50%;
+    float: left;
+}
+#alchem-home-sections .alchem-home-section-3 .video-promo h2 {
+	margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    color: #000;
+}
+#alchem-home-sections .alchem-home-section-3 iframe	{
+	float:right;
+}
+#alchem-home-sections .alchem-home-section-9 {
+	background-color: transparent !important;
+}
+h2.section-title {
+	font-size: 3.4em;
+	 margin: 0 0 30px;
+
+}
+h2.section-title span {
+	font-family: 'Avenir-Medium', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+	color: #000;
+}
+.alchem-home-style-0 .section-subtitle {
+    text-align: center;
+    font-size: 1.4em;
+    width: 80%;
+    margin: 0 auto;
+    color: #000000;
+}
+.divider.center {display:none;}
+.feature-link {
+	background: #37669c;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+.magee-feature-box h3 {
+    font-size: 30px;
+    font-family: 'Avenir-Heavy', sans-serif;
+    color: #000;
+}
+.magee-feature-box .feature-content p{
+	font-family: 'Avenir-Light', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+    width: 100%;
+    margin: 0 auto .8em;
+    line-height: 30px;
+}
+
+#section-2,
+#section-3 {border-bottom: 0;}
+
+#section-3 {
+	
+}
+/* What We Do */
+.what-we-do .row .col-md-4 {padding: 0 7%;}
+.what-we-do h2 {text-align:center;}
+
+div.collaboration-sections {display:inline-block;}
+.left-container {    
+	float: left;
+    width: 62%;
+	color: #000;
+	margin: 80px 0 0 0;
+}
+
+#alchem-home-sections #section-2 #section-10 {
+    border-bottom: 1px solid #fff;
+    padding: 0 0 42px;
+}
+#alchem-home-sections #section-2 .magee-feature-box h4 {
+    font-family: 'Avenir-Medium', sans-serif;
+	padding: 0 0 10px;
+}
+#alchem-home-sections #section-2 .magee-feature-box .feature-content p {
+	font-family: 'Avenir-Light', sans-serif;
+    font-size: 1.3em;
+    color: #000;
+    width: 100%;
+    margin: 0 auto .8em;
+    line-height: 30px;
+}
+#alchem-home-sections #section-2 {
+     background-image: url('http://depaulidlab.com/wp-content/uploads/2018/04/collaboration-bg.jpg') !important;
+     color: #000;
+     padding: 60px 0;
+}
+#alchem-home-sections #section-2 h2.section-title {
+	font-size: 2.8em;
+	color:#000;
+}
+#alchem-home-sections #section-2 #section-10 h2.section-title {
+     color: #fff !important;
+}
+#alchem-home-sections #section-2 .magee-feature-box h3 {
+	font-family: 'Avenir-Bold', sans-serif;
+    color: #000;
+    font-size: 1.5em;
+}
+
+#alchem-home-sections #section-60 {
+	background-color: #959595;
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+}
+#alchem-home-sections #section-60 h2 {
+    color: #fff;
+}
+
+/* Meet the team */
+#alchem-home-sections #section-70 {
+	background-color: #f2f2f2 !important;
+    border-top: 0;
+    padding-top: 60px;
+}
+#section-7 h2,
+#section-7 .section-subtitle,
+#section-70 h2,
+#section-70 .section-subtitle {
+	text-align: center !important;
+    width: 100%;
+}
+#section-7 h2, #section-70 h2 {color:#333333;}
+#section-7 .section-subtitle,
+#section-70 .section-subtitle {
+	color: #000;
+    width: 52%;
+    float: unset;
+    line-height: 36px;
+    margin: 0 0 42px;
+    margin: 0 auto 30px;
+}
+#sc_our_team {text-align:center;}
+
+.grid#sc_our_team .sc_team_member .sc_team_member_name,
+.grid#sc_our_team .sc_team_member .sc_team_member_jobtitle {line-height: 22px;}
+.grid#sc_our_team .sc_team_member .sc_team_member_jobtitle b {display:block;}
+
+#section-70 #sc_our_team .sc_team_member_inner img {width: 200px !important;}
+#section-70 #sc_our_team.sc-col4 .sc_team_member {vertical-align: top;}
+
+#alchem-home-sections .alchem-home-section-6 {
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#alchem-home-sections .alchem-home-section-8 {
+	background-position-y: bottom;
+    background-position-x: center;
+}
+
+.sc_team_member_name {margin-top:10px;}
+.grid#sc_our_team .sc_team_member {
+    display:inline-block;
+	margin-bottom: 20px;
+	vertical-align: top;
+}
+#sc_our_team .sc_team_member_inner {
+    text-align: center;
+    font-size: 1.4em;
+}
+.sc_team_member_jobtitle {
+	color: #949494 !important;
+	font-size: 0.7em;
+}
+
+/* Partners */
+#section-10 img {
+	width: 80%;
+    max-height: 112px;
+
+}
+#section-9 .logos .logos-row {
+	width: 100%;
+    display: inline-block;
+    margin: 0 0 28px;
+}
+#section-9 .logos .logos-row a {
+	width: 44%;
+    text-align: left;
+    display: inline-block;
+}
+#section-9 .logos img {
+    max-width: 190px;
+    margin: 0 10px;
+    max-height: 66px;
+}
+#section-9 .faculty-row {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted rgba(255,255,255, 0.2);
+    padding: 0 0 10px;
+}
+#section-9 .faculty-container {
+	float: left;
+    margin-left: 0;
+    width: 88%;
+    line-height: 23px;
+    font-family: 'Avenir-Light', sans-serif;
+    font-size: 1.1em;
+}
+#section-9 .faculty-row b {
+	display: block;
+    font-size: 1.3em;
+}
+#section-9 .faculty-weblink a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url(http://depaulidlab.com/wp-content/uploads/2018/04/icon-link-2.png);
+}
+.contact-left {
+	float:left;
+	width:50%;
+}
+.contact-left p {
+    width: 77%;
+    float: right;
+    font-size: 1.3em;
+}
+.contact-right {
+	float:right;
+	width:42%;
+}
+
+/* Forms */
+#section-80 h2 {
+	font-family: 'Avenir-Black', sans-serif;
+    font-size: 3.0em;
+    font-weight: bold;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+    margin: 5px 0 15px;
+}
+#section-80 .alchem_section_8_model p {
+	text-align: center;
+    font-size: 1.8em;
+    width: 60%;
+    margin: 0 auto;
+    color: #363636;
+}
+#section-80 .form-container {text-align:left;}
+#section-80 div.row {
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+	padding: 10px 0;
+}
+#section-80 div.row div {
+    width: 100%;
+    display: inline-block;
+    padding: 0 0.3em;
+    margin: 0 0 10px;
+}
+#section-80 div.row label {
+	text-align: left;
+}
+#section-80 div.row label b {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 16px;
+    font-family: 'Avenir-Black', sans-serif;
+    color: #000;
+}
+#section-80 div.row p {
+	width: 100%;
+}
+#section-80 div.row input[type="text"],
+#section-80 div.row input[type="email"],
+#section-80 div.row input[type="tel"] {
+    border: 1px solid #999;
+    padding: 8px;
+}
+#section-80 div.wpcf7 input[type="submit"] {
+background-color: #37669c;
+    color: #fff !important;
+    border: 0;
+    border-radius: 0;
+    padding: 8px 60px;
+    font-size: 16px;
+    float: left;
+    margin-left: 108px;
+    width: 70%;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#section-80 div.wpcf7 input[type="submit"]:hover {
+	background-color: #1F3551;
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#section-80 form.wpcf7-form {
+	/*text-align:center;*/
+}
+#section-80 .contact-left {
+	text-align:right;
+	color:#000;
+}
+#section-10 {margin:0 0 48px;}
+#section-10 .row {text-align:center;}
+#section-10 h2.section-title {
+	font-family: 'Avenir-Light', sans-serif;
+    font-size: 1.7em;
+    font-weight: unset;
+    color: #ffffff;
+    margin: 68px auto -50px;
+    text-align: left;
+}
+#section-10 .col-md-3 {width:12%;float:left;} 
+
+/* Alumni Faculty Section */
+.container.alchem_section_8_model {width: 100% !important;}
+.alumni-container {
+	width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.alumni-faculty h2 {margin: 0 0 32px;}
+.alumni-faculty {color: #fff;}
+.alumni-faculty .alumni {
+	width: 42%;
+    float: left;
+    margin-left: 0;
+}
+.alumni-faculty .column2 {
+	padding: 0;
+    padding-top: 0;
+    margin-right: 0px;
+    margin-left: 3%;
+}
+.alumni-faculty .faculty {
+    padding-left: 5%;
+    width: 48%;
+    float: left;
+}	
+.alumni-faculty .faculty .faculty-weblink {
+	float:right;
+}
+
+footer .contact-info {    
+	width: 40%;
+    float: left;
+    margin: 0 0 0 5%;
+}
+footer .contact-info h2 {
+    font-family: 'Avenir-Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+footer .contact-info ul {
+	list-style: none;
+    font-size: 1.2em;
+	padding:0;
+	margin:0;
+}
+footer .depaul-cdm {
+	text-align: right;
+    width: 40%;
+    float: right;
+    margin: 1.3% 5% 0 0;
+}
+footer .alchem_footer_social_icon_1 {width: 100%;display: inline-block;}
+footer .alchem_footer_social_icon_1 ul.footer-sns {margin-bottom:0;}
+footer .copyright {text-align:center;}
+footer .footer-info-area {
+    background-color: #192f48;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 920px) {
+	.overlay .main-header .site-nav > ul > li:hover > a {
+    	border-color: #424242 !important;
+	}
+	.site-nav > ul > li:hover > a {
+    	border-color: #424242 !important;
+	}
+}
+@media screen and (min-width: 919px) {
+	.site-nav > ul > li a {
+	    border-bottom: 4px solid transparent !important;
+	}
+}
+@media (min-width: 768px) {
+	#sc_our_team.sc-col4 .sc_team_member {
+    	width: 24%;
+	}
+	#section-70 #sc_our_team.sc-col4 .sc_team_member {width: 19%;}
+}
+@media (max-width: 919px) {
+	.wrapper {overflow:hidden;}
+	.overlay .main-header .site-name, .overlay .main-header .site-tagline, .overlay .main-header .site-nav-toggle {color: #000 !important;}
+	footer .footer-info-area {
+		background-color: #192f48;
+		float: unset;
+		margin: 0;
+		padding: 40px 5% 0;
+	}
+	.alumni-container, 
+	.alumni-faculty .alumni {
+    	width: 100%;
+	}
+	.alumni-faculty .column1 {
+		margin-left: 0px;
+	}
+	.alumni-faculty .column2 {
+		padding: 0;
+		padding-top: 0;
+		margin-right: 0px;
+		margin-left: 0;
+	}
+	.alumni-faculty .faculty {
+		padding-top:15px;
+		padding-left:0;
+		width: 100%;
+		float:right
+	}	
+
+}
+@media (max-width: 768px) {
+	.wrapper {width:100%;}
+	.site-nav li ul {
+		width: 100% !important;
+	}
+	.alchem-home-style-0.alchem-home-section-0 .magee-heading .heading-inner {
+		font-size: 70%;
+	}
+	.magee-heading .heading-inner span {
+    	font-size: 0.65em;
+	}
+	#section-1 .section-content p.alchem_section_0_sub_title {
+    	font-size: 1.6em;
+    	line-height: 40px;
+	}
+	h2.section-title {font-size: 2.5em;}
+	h2.section-title span {font-size: 0.9em;}
+	.contact-left p {
+		width: 100%;
+		font-size: 1.3em;
+		text-align: center;
+	}
+	#section-10 .client-logos {
+		background-color: #2e5484;
+		width: 124%;
+		padding: 0 0%;
+		margin-left: -12%;
+		margin-right: 0;
+	} 
+	#section-80 div.row {width: 100%;}
+	.alchem-home-style-0 .section-subtitle {width:100% !important;font-size: 1.3em;}
+	#section-80 h2 {font-size: 2.8em;text-align:center;}
+	#section-80 .alchem_section_8_model p {width: 100%;font-size: 1.6em;}
+	#section-80 div.wpcf7 input[type="submit"] {
+		margin-left:0;
+		width: 100%;
+	}
+	#section-80 div.row input[type="text"], #section-80 div.row input[type="email"], #section-80 div.row input[type="tel"] {width: 100%;}
+	footer .contact-info {width: 100%;}
+	footer .depaul-cdm {
+		width: 100%;
+    	margin: 6% 0;
+    	text-align: center;
+	}
+	#section-10 .col-md-3 {
+    	width: 100%;
+    	text-align: center;
+		background-color: #2e5484;
+	}
+	#section-10 img {
+    	width: 42%;
+    	margin-bottom: 30px;
+	}
+}
+@media (max-width: 480px) {
+	.overlay .main-header .site-name, .overlay .main-header .site-tagline, .overlay .main-header .site-nav-toggle {color: #000 !important;}
+	.left-container {
+		width: 100% !important;
+		margin-bottom: 50px;
+	}
+	#section-2 .row {
+		width:100% !important;
+	}
+	
+	
+	#section-9 .faculty-row {
+		width: 100% !important;
+		float: left;
+		margin-left: 0 !important;
+	}
+	#section-9 .faculty {
+		padding-top: 15px;
+		padding-left: 0 !important;
+		width: 100% !important;
+		float: right;
+	}
+	.contact-left {
+		width: 100%;
+	}
+	.contact-right {
+		width: 100%;
+	}
+	#sc_our_team .sc_team_member_inner img {
+		width: 75%;
+	}
+	#section-80 .form-container {
+		text-align:center;
+	}
+	#section-80 div.row label b {
+		text-align:left;
+	}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
