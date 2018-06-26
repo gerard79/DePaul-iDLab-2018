@@ -8,7 +8,7 @@ Author: Gerard Panganiban
 Author URI: http://depaulidlab.com
 Description: This is the theme for the new DePaul iD Lab website.
 Tags: one-column,two-columns,custom-background,custom-header,custom-menu,theme-options,left-sidebar,translation-ready,editor-style,featured-images,full-width-template,custom-colors,threaded-comments,buddypress,e-commerce
-Version: 1.8.14
+Version: 1.8.15
 */
 @import url('../alchem/style.css');
 @import url('fonts/font.css');
@@ -335,11 +335,20 @@ div.collaboration-sections {display:inline-block;}
 	display: block;
     font-size: 1.3em;
 }
+/* Gerard */
 #section-9 .faculty-weblink a {
     width: 30px;
     height: 30px;
     display: inline-block;
     background-image: url(http://depaulidlab.com/wp-content/uploads/2018/04/icon-link-2.png);
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+}
+#section-9 .faculty-weblink a:hover {
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
 }
 .contact-left {
 	float:left;
